@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-  <remote name="openembedded" fetch="git://github.com/openembedded/" />
-  <remote name="riscv" fetch="git://github.com/riscv/" />
-  <remote name="sifive" fetch="git://github.com/sifive/" />
-  <remote name="kraj" fetch="git://github.com/kraj/" />
+  <remote name="openembedded" fetch="https://github.com/openembedded/" />
+  <remote name="riscv" fetch="https://github.com/riscv/" />
+  <remote name="sifive" fetch="https://github.com/sifive/" />
+  <remote name="kraj" fetch="https://github.com/kraj/" />
   <default remote="openembedded" revision="master" />
 
   <project name="meta-sifive" remote="sifive" path="meta-sifive" revision="d161ac8d3e1b65a6b4987bb6653435fe2ee3694c" />
